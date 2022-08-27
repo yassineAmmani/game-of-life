@@ -1,6 +1,7 @@
 
 var gameOfLife = function(board) {
 var T = [...Array(board.length )].map(_=>Array(board[0].length).fill(0)) 
+
 var ind = function(index){
     if (index == 0){
         return 0}
