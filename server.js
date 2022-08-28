@@ -20,6 +20,7 @@ var gameOfLife = function(board) {
         }
         T[index][jndex]=k
     }
+    
     var tab = function(){
         let i,j
         for(i=0; i< board.length ; i++){
