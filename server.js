@@ -28,8 +28,7 @@ var gameOfLife = function(board) {
                 }
         }
     }
-        tab()
-        
+        tab()   
         for(i=0; i< board.length ; i++){
             for(j=0; j<board[0].length ; j++){
                 if(board[i][j] == 1 && T[i][j]<2){
